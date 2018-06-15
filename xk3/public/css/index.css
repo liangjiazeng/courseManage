@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: fixed;
+  /*  background-image: url('../images/bg.png');*/
+    width: 100%;
+    background-size: cover; 
+    background-color: rgb(246,246,246);
+}
+
+#app{
+    margin: 0 auto;
+}
+
+header{
+   /* margin-top: 30px;*/
+   /* margin-left: 30px;*/
+    height: 100px;
+    background-color: #036746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header marquee{
+    font-size: 46px;
+    color: #fff;
+}
+ul li{
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.leftNav{
+    opacity: 0.8;
+    /*background-image: url("../images/left.png");*/
+    background-size: cover;
+    height: 515px;
+    width: 300px;
+    background-color: #191b2e;
+}
+.leftNav #icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+.leftNav ul li{
+    margin-left: 50px;
+}
+.leftNav .menuRouter{
+    color:#fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+.content{
+    opacity: 0.8;
+    margin-top: -515px;
+    margin-right: 30px;
+    float: right;
+    width: 1000px;
+    height: 515px;
+    
+}
+
+div.container{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+div.container h2{
+    text-align: center;
+}
+#studentName,#courseName,#className{
+    width: 200px;
+    height: 36px;
+}
