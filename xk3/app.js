@@ -26,6 +26,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+
 //设置跨域访问  
 app.all('*', function(req, res, next) {  
     res.header("Access-Control-Allow-Origin", "*");  
