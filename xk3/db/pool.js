@@ -4,7 +4,7 @@ let pool = global.pool;
 if(!pool){
   //创建连接池
   pool = mysql.createPool({
-    database:'xk',
+    database:'student',
     user:'root',
     password:'123456'
   });
